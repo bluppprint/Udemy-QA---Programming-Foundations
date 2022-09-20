@@ -1,3 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+   <title>Udemy Testare manuala si automater - by Radu Popescu</title> 
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
+
 <script>
 
 let nume = "Vio" ; // tip de date: string
@@ -46,22 +84,135 @@ let masina = {
         suprafata: 16,
         stradaGaraj: "Ion Creanga",
         ocupat: false
+    },
+
+    salut: function(){
+        console.log("Salut sunt masina ta");
     }
 }
+
+masina.salut();
+
+
+a = 3;
+b = 2;
+c = 5;
+
+
+if(a < b ){
+   // console.log("IF1");
+}
+
+    else if(c < b){
+       // console.log("IF2");
+    }
+
+    else if(a >b){
+      // console.log("IF3");
+
+
+    }
+
+
+
+
+
+
+else {
+   // console.log("ELSE");
+
+
+}
+
+
+
+animale =["pisica", "leu", "caprioara"];
+
+for(i=0;i<150;i++){   
+       // console.log("Animal: " + animale[i]);
+
+
+}
+
+
+function salut(n){
+
+    console.log("Salut " + n);
+
+}
+
+salut("Vio");
+
+salut("Cori");
+
+
+function impartire (a, b) {
+   // console.log("Impartirea e = " + a/b);
+
+
+}
+
+ //impartire (8,2);
+
+
+function datePersonale(nume, varsta, angajat){
+    let a;
+
+
+    if(angajat === true){
+       a = "angajat";
+    }
+    else{
+        a = "somer";
+    }
+        console.log(nume + " are varsta de " + varsta + " ani si este " + a);
+
+
+
+
+}
+
+//datePersonale("Vio" , 32, true);
+
+//datePersonale("Cori" , 33, false);
+
+
+function afisareMasini(x){
+    for(i=0; i<x.length; i++){
+        console.log(x[i]);
+    }
+
+
+}
+
+afisareMasini(["BMW", "AUDI" , "Seat"]);
+afisareMasini(["BMW", "AUDI" , "Seat" , "Dacia" , "Ferrari"])
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 //Afisare in consola din browser - DevTools
 
-console.log(varsta);
-console.log(nume);
-console.log(aiFacutArmata);
-console.log(masini[1]);
-console.log(masina.model);
-console.log(masina.nrImatriculare);
-console.log(masina.extraoptiuni[1]);
-console.log(masina.garaj.stradaGaraj);
+// console.log(varsta);
+// console.log(nume);
+// console.log(aiFacutArmata);
+// console.log(masini[1]);
+// console.log(masina.model);
+// console.log(masina.nrImatriculare);
+// console.log(masina.extraoptiuni[1]);
+// console.log(masina.garaj.stradaGaraj);
 
 
 
@@ -82,3 +233,12 @@ console.log(masina.garaj.stradaGaraj);
 
 
 </script>
+
+
+
+
+</body>
+
+
+
+</html>
